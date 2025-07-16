@@ -1,6 +1,7 @@
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const HomePage = () => {
   return (
@@ -9,7 +10,9 @@ const HomePage = () => {
       <main className="flex-grow">
         {/* Hero Section */}
         <section className="relative">
-          <img
+          <Image
+            width={9800}
+            height={500}
             src="/background.png" // Update this path
             alt="Hero Image"
             className="w-full h-[80vh] object-cover"
