@@ -16,7 +16,7 @@ export default function Product() {
               title="Carbella Pro"
               price={199.99}
               description="A portable, automatic car cover that protects your vehicle from all weather conditions. Easy to install and remove."
-              image="/carbella.jpg"
+              image="/product.jpg"
             />
           </div>
           <div className="mt-12 max-w-4xl mx-auto bg-white p-8 rounded-xl shadow-lg">
